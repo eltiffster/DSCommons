@@ -44,6 +44,7 @@ void loop() {
     digitalWrite(ledPin1, HIGH); //otherwise, turn the LEDs on.
     digitalWrite(ledPin2, HIGH);
     startPlayback(sample, sizeof(sample));
+    delay(3000);
   }
 
 }
